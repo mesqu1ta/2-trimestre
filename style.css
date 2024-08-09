@@ -20,7 +20,7 @@ body {
     .container {
         height: 100vh;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 30% 50%;
     }
     .container_botao {
         background-color: var(--botao-azul);
@@ -28,4 +28,12 @@ body {
         padding: 1em;
         color: var(--branco-principal);
         display: block; 
+        margin: 20px;
+    }
+    .titulo{
+        margin: 10%;
+    }
+    .botao_segundario{
+        background-color: transparent;
+        border: 2px solid var(--branco-principal);
     }
